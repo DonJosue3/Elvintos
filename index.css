@@ -1,6 +1,29 @@
-.head{
+.head {
     width: 100%;
     height: 400px;
-    background-image: url(./images/pexels-marek-piwnicki-3907296-7764189.jpg);
+    background-image: url(./images/pexels-marek-piwnicki-3907296-14549192.jpg);
     background-size: cover;
+  
+    animation: heads 5s ease-in infinite;
+    
+}
+
+@keyframes heads {
+    0% {
+        background-image: url(./images/pexels-marek-piwnicki-3907296-14549192.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(./images/pexels-marek-piwnicki-3907296-7764189.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./images/pexels-marek-piwnicki-3907296-11032450.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./images/pexels-marek-piwnicki-3907296-8738447.jpg);
+        background-size: cover;
+    }
 }
