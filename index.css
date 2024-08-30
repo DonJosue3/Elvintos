@@ -1,55 +1,124 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    background-color: transparent;
+
+    background-image: url(./images/pexels-marek-piwnicki-3907296-11032450.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: o.3;
+}
+
+p,
+h1 {
+    font-family: sans-serif;
 }
 
 .head {
-    flex-grow: 1;
-    height: 40vh;
-    background-image: url(./images/pexels-sevenstormphotography-1187538.jpg);
-    background-size: cover;
-    padding-top: 20px;
+    height: auto;
+    background-color: transparent;
 }
 
+
 @media(max-width: 600px) {
-    .head {
-        padding: 10px;
-        font-size: 14px;
+    body {
+        padding: 5px;
     }
-    .ido{
+
+    .head {
+        height: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
+    }
+
+    .ido {
         height: 35vh;
+    }
+
+    .contact {
+        margin-left: auto;
+    }
+
+    .second {
+        flex: 1;
+    }
+
+    .navbar {
+        gap: 2vh;
+        padding: 5px;
+    }
+
+    .navbar h1 {
+        font-size: smaller;
+    }
+
+    .id h1 {
+        font-size: medium;
+    }
+
+    .id p {
+        font-size: smaller;
     }
 }
 
 @media(min-width:601px) {
+
     .head {
-        padding: 20px;
-        font-size: 18px;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
     }
 
     .second {
         gap: 10vh;
     }
-    .ido{
+
+    .ido {
         height: 35vh;
+    }
+
+    .navbar {
+        gap: 4vh;
+        padding:  7px 40px 10px 20px;
+    }
+    .navbar h1{
+        font-size: small;
     }
 }
 
 @media(min-width:1000px) {
+
     .head {
-        padding: 30px;
-        padding-bottom: 0%;
-        font-size: 20px;
-        height: 60vh;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
+        height: auto;
+        background-color: transparent;
     }
 
     .second {
         gap: 15vh;
         margin-bottom: 0%;
-
+        flex: 1;
     }
-    .ido{
+
+    .ido {
         height: 50vh;
+    }
+
+    .navbar {
+        gap: 10vh;
+        padding: 7px 40px 10px 20px;
+    }
+
+    .navbar h1 {
+        font-size: medium;
+    }
+
+    .contact {
+        margin-left: auto;
     }
 }
 
@@ -60,24 +129,30 @@ body {
     height: auto;
 }
 
-.navbar h4 {
-    color: rgb(39, 121, 114);
+.navbar h1 {
+    color: rgb(148, 183, 179);
     margin: 0;
     padding: 0;
 }
 
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 button {
     background-color: transparent;
-    width: 80px;
+    width: auto;
     height: 40px;
     border: none;
     cursor: pointer;
+    padding: 0px;
 }
 
 button h4:hover {
-    font-size: large;
     color: greenyellow;
-    background-color: rgb(150, 157, 157);
+    background-color: rgb(125, 198, 198);
     border-radius: 20px;
 
 }
@@ -86,15 +161,15 @@ a {
     text-decoration: none;
 }
 
-.contact {
-    margin-left: auto;
-}
+
 
 
 
 .write,
 .gra {
     color: greenyellow;
+    padding: 0%;
+    margin: 0%;
 }
 
 .id h1,
@@ -114,27 +189,17 @@ h3 {
     animation: baro 1s ease-out infinite;
 }
 
-@keyframes baro {
-    0% {
-        color: yellowgreen;
-        visibility: hidden;
-    }
 
-    100% {
-        color: transparent;
-    }
-}
 
 .second {
     display: flex;
     flex-direction: row;
     height: auto;
     justify-content: center;
-
 }
 
 .ido {
-   
+
     display: flex;
 
 }
