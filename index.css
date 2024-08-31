@@ -89,6 +89,9 @@ h1 {
 }
 
 @media(min-width:1000px) {
+    body{
+        padding: 20px;
+    }
 
     .head {
         border: 2px solid #000000;
