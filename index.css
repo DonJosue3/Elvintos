@@ -46,7 +46,7 @@ h1 {
 
     .navbar {
         gap: 2vh;
-        padding: 5px;
+        padding: 5px 4vh 5px 5px;
     }
 
     .navbar h1 {
@@ -105,12 +105,12 @@ h1 {
     }
 
     .ido {
-        height: 50vh;
+        height: 60vh;
     }
 
     .navbar {
         gap: 10vh;
-        padding: 7px 40px 10px 20px;
+        padding: 7px 10vh 10px 20px;
     }
 
     .navbar h1 {
@@ -130,7 +130,7 @@ h1 {
 }
 
 .navbar h1 {
-    color: rgb(148, 183, 179);
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
