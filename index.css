@@ -24,7 +24,9 @@ h1 {
     body {
         padding: 5px;
     }
-
+    .bar{
+        color: transparent;
+    }
     .head {
         height: auto;
         border: 2px solid black;
@@ -70,7 +72,14 @@ h1 {
         border-radius: 20px;
         box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
     }
-
+    .bar{
+       color: transparent;
+    }
+    .write{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
     .second {
         gap: 10vh;
     }
@@ -92,7 +101,18 @@ h1 {
     body{
         padding: 20px;
     }
-
+    .bar{
+        color: transparent;
+        animation: bar 1s  infinite;
+    }
+    @keyframes bar{
+       0%{
+        color: transparent;
+       }
+       100%{
+        color: transparent;
+       }
+    }
     .head {
         border: 2px solid #000000;
         border-radius: 20px;
@@ -188,9 +208,7 @@ h3 {
     width: initial;
 }
 
-.bar {
-    animation: baro 1s ease-out infinite;
-}
+
 
 
 
