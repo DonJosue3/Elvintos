@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     background-color: transparent;
-
     background-image: url(./images/pexels-marek-piwnicki-3907296-11032450.jpg);
     background-size: auto;
     background-repeat: no-repeat;
@@ -16,22 +15,21 @@ h1 {
 
 .head {
     height: auto;
+}
+
+.second {
     background-color: transparent;
 }
 
-
 @media(max-width: 600px) {
-    body {
-        padding: 5px;
+
+    .bar {
+        display: none;
     }
-    .bar{
-        color: transparent;
-    }
+
     .head {
         height: auto;
-        border: 2px solid black;
-        border-radius: 20px;
-        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
+
     }
 
     .ido {
@@ -47,12 +45,15 @@ h1 {
     }
 
     .navbar {
-        gap: 2vh;
-        padding: 5px 4vh 5px 5px;
+        width: 100%;
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
 
     .navbar h1 {
         font-size: smaller;
+
     }
 
     .id h1 {
@@ -68,18 +69,18 @@ h1 {
 
     .head {
         height: auto;
-        border: 2px solid black;
-        border-radius: 20px;
-        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
     }
-    .bar{
-       color: transparent;
+
+    .bar {
+        display: none;
     }
-    .write{
+
+    .write {
         display: flex;
         flex-direction: row;
         flex: 1;
     }
+
     .second {
         gap: 10vh;
     }
@@ -89,34 +90,17 @@ h1 {
     }
 
     .navbar {
-        gap: 4vh;
-        padding:  7px 40px 10px 20px;
+        background-color: white;
     }
-    .navbar h1{
+
+    .navbar h1 {
         font-size: small;
     }
 }
 
 @media(min-width:1000px) {
-    body{
-        padding: 20px;
-    }
-    .bar{
-        color: transparent;
-        animation: bar 1s  infinite;
-    }
-    @keyframes bar{
-       0%{
-        color: transparent;
-       }
-       100%{
-        color: transparent;
-       }
-    }
     .head {
-        border: 2px solid #000000;
         border-radius: 20px;
-        box-shadow: 5px 5px 0px 0px rgb(15, 41, 48);
         height: auto;
         background-color: transparent;
     }
@@ -132,15 +116,21 @@ h1 {
     }
 
     .navbar {
-        gap: 10vh;
-        padding: 7px 10vh 10px 20px;
+        gap: 5vh;
+        height: 40px;
+        width: 100%;
+        background-color: white;
     }
 
     .navbar h1 {
+
         font-size: medium;
+        color: black;
+        font-weight: 200;
     }
 
     .contact {
+        margin-right: 10vh;
         margin-left: auto;
     }
 }
@@ -148,14 +138,12 @@ h1 {
 .navbar {
     display: flex;
     flex-direction: row;
-    background-color: transparent;
-    height: auto;
 }
 
 .navbar h1 {
-    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 .about {
@@ -177,7 +165,6 @@ button h4:hover {
     color: greenyellow;
     background-color: rgb(125, 198, 198);
     border-radius: 20px;
-
 }
 
 a {
