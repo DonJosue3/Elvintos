@@ -36,12 +36,14 @@ h1 {
         flex: 1;
     }
     .navbar {
-        padding-left: 5vh;
-        gap: 4vh;
+        padding-left: 4vh;
+        gap: 2vh;
         width:auto;
         background-color: white;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        display: flex;
+        align-items: center;
     }
     .navbar h1 {
         font-size: smaller;
@@ -56,6 +58,7 @@ h1 {
     .id p {
         font-size: smaller;
     }
+    
 }
 
 @media(min-width:601px) {
@@ -84,11 +87,12 @@ h1 {
 
     .navbar {
         padding-left: 8vh;
-        gap: 5vh;
+        gap: 3vh;
         width: auto;
-        padding-top: 1vh;
         height: 4vh;
         background-color: white;
+        display: flex;
+        align-items: center;
     }
 
     .navbar h1 {
@@ -119,11 +123,13 @@ h1 {
     }
 
     .navbar {
-        padding-left: 15vh;
-        gap: 10vh;
+        padding-left: 13vh;
+        gap: 4.5vh;
         height: 50px;
         width: auto;
         background-color: white;
+        display: flex;
+        align-items: center;
     }
 
     .navbar h1 {
