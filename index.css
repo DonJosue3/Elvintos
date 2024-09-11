@@ -23,9 +23,7 @@ h1 {
 
 @media(max-width: 600px) {
 
-    .bar {
-        display: none;
-    }
+    
 
     .head {
         height: auto;
@@ -37,6 +35,7 @@ h1 {
     }
 
     .contact {
+        margin-right: 5vh;
         margin-left: auto;
     }
 
@@ -45,6 +44,8 @@ h1 {
     }
 
     .navbar {
+        padding-left: 1vh;
+        gap: 3vh;
         width: 100%;
         background-color: white;
         border-top-left-radius: 5px;
@@ -53,7 +54,8 @@ h1 {
 
     .navbar h1 {
         font-size: smaller;
-
+        color: black;
+        font-weight: 200;
     }
 
     .id h1 {
@@ -90,11 +92,20 @@ h1 {
     }
 
     .navbar {
+        padding-top: 1vh;
+        height: 4vh;
+        padding-left: 2vh;
+        gap: 3vh;
         background-color: white;
     }
 
     .navbar h1 {
         font-size: small;
+        font-weight: 200;
+    }
+    .contact{
+        margin-right: 5vh;
+        margin-left: auto;
     }
 }
 
@@ -117,7 +128,7 @@ h1 {
 
     .navbar {
         gap: 5vh;
-        height: 40px;
+        height: 50px;
         width: 100%;
         background-color: white;
     }
