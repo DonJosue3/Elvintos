@@ -95,6 +95,7 @@ h1 {
     }
 
     .navbar h1 {
+        color: ;
         font-size: small;
         font-weight: 200;
     }
@@ -151,7 +152,7 @@ h1 {
 .navbar h1 {
     margin: 0;
     padding: 0;
-    color: black;
+    color:rgb(10, 112, 41);
 }
 
 .about {
